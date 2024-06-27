@@ -17,6 +17,7 @@ jobs:
   deploy:
     name: "Deploy bundle"
     runs-on: ubuntu-latest
+    environment: prod
 
     steps:
       # Check out this repo, so that this workflow can access it.
