@@ -2,7 +2,7 @@
 resources:
   pipelines:
     my_project_pipeline:
-      name: my_project_pipeline
+      name: my_project_pipeline_${bundle.environment}
       target: my_project_${bundle.environment}
       libraries:
         - notebook:
